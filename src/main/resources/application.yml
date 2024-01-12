@@ -1,0 +1,22 @@
+jwt:
+  secret-key: Z29nby10bS1zZXJ2ZXItZGxyamVvYW9yb3JodG9kZ290c3Atam9vbmdhbmduaW0teWVvbHNpbWhpaGFsZ2VveW8K
+
+oauth:
+  naver:
+    secret: uqZyl8Ouav
+    client-id: bZo6O5YiB28gwNYvn6Ii
+    url:
+      auth: https://nid.naver.com
+      api: https://openapi.naver.com
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/exhibition?serverTimezone=Asia/Seoul&useUnicode=true&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: 1234
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop #create update none
+    show-sql: true
